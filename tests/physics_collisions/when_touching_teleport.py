@@ -39,6 +39,7 @@ def test_ball_movement():
         global num_collisions 
         print('collision')
         num_collisions += 1
+        ball.x=0
    
     play.start_program()
 
