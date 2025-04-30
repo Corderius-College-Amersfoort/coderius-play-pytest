@@ -12,3 +12,5 @@ pytest -q --tb=no --disable-warnings tests/physics/test_physics_after_hide_show.
 pytest -q --tb=no --disable-warnings tests/physics_collisions/test_steady_x_speed.py >> pytest_stdout
 pytest -q --tb=no --disable-warnings tests/physics_collisions/when_touching_wall.py >> pytest_stdout
 pytest -q --tb=no --disable-warnings tests/physics_collisions/when_touching_teleport.py >> pytest_stdout
+pytest -q --tb=no --disable-warnings tests/physics_collisions/when_stopped_touching.py >> pytest_stdout
+pytest -q --tb=no --disable-warnings tests/physics_collisions/when_stopped_touching_wall.py >> pytest_stdout
